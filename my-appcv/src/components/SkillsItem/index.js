@@ -5,7 +5,7 @@ const SkillsItem = (props) => {
     return (
         <div>
             <li style={{ listStyleType: "none" }}>
-             <a>{props.skill}</a>
+             <p>{props.skill}</p>
              </li>
         </div>
     )
